@@ -1,5 +1,6 @@
 """Self-check and example client for the ArgonToolkit FastMCP server."""
-
+# Copyright 2026 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
+# SPDX-License-Identifier: AGPL-3.0-or-later
 import asyncio
 from pathlib import Path
 from unittest.mock import AsyncMock, MagicMock, patch
