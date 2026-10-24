@@ -26,9 +26,9 @@ Set your AI Studio API key (with a spend cap configured in Google Cloud / AI Stu
 {
   "mcpServers": {
     "argon-toolkit": {
-      "command": "/home/brlin/文件/antigravity-cli-with-argon-fastmcp/.venv/bin/python3",
+      "command": "/path/to/argon-toolkit/.venv/bin/python3",
       "args": [
-        "/home/brlin/文件/antigravity-cli-with-argon-fastmcp/server.py"
+        "/path/to/argon-toolkit/server.py"
       ],
       "env": {
         "GEMINI_API_KEY": "YOUR_AI_STUDIO_API_KEY"
@@ -37,6 +37,8 @@ Set your AI Studio API key (with a spend cap configured in Google Cloud / AI Stu
   }
 }
 ```
+
+Replace the `/path/to/argon-toolkit` placeholder text with the actual path to your Argon Toolkit project directory.
 
 ## Verification
 
