@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "argon-toolkit": {
+      "command": "/home/brlin/文件/antigravity-cli-with-argon-fastmcp/.venv/bin/python3",
+      "args": [
+        "/home/brlin/文件/antigravity-cli-with-argon-fastmcp/server.py"
+      ]
+    }
+  }
+}
