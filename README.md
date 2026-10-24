@@ -2,6 +2,8 @@
 
 A local FastMCP server that lets **Flash 3.8** act as the primary Antigravity orchestrator while calling **Gemini 4 Argon** (`gemini-4-argon`) via the Google GenAI API (billed against AI Studio / Google Developer Program credits).
 
+<https://gitlab.com/brlin/argon-toolkit>
+
 ## Workflow (`argon-review-loop`)
 
 1. **Pre-process with Flash**: Scope relevant files and summarize project state into a compact `project_context` string so Argon doesn't waste tokens crawling the repository.
