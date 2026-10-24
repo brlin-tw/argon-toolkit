@@ -38,11 +38,13 @@ Set your AI Studio API key (with a spend cap configured in Google Cloud / AI Stu
 ## Verification
 
 Run the self-check suite:
+
 ```bash
 .venv/bin/python3 test_argon_client.py
 ```
 
 Inspect registered tools via the FastMCP CLI:
+
 ```bash
 PATH="$(pwd)/.venv/bin:$PATH" .venv/bin/fastmcp list server.py
 ```
