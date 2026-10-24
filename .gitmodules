@@ -32,3 +32,8 @@
 	url = https://gitlab.com/brlin/implementing-new-features.git
 	ignore = dirty
 	shallow = true
+[submodule "The looping-with-argon agent skill"]
+	path = .agents/skills/looping-with-argon
+	url = https://gitlab.com/brlin/looping-with-argon.git
+	ignore = dirty
+	shallow = true
